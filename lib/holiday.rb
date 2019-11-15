@@ -52,7 +52,7 @@ def all_winter_holiday_supplies(holiday_hash)
   # holiday_hash[:winter][:christmas] << "Party Hats"
   holiday_hash[:winter].map do |key, value|
     value
-  end.flatten
+  end
   # binding.pry
 end
 
